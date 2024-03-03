@@ -5,12 +5,9 @@ body {
 }
 
 .header {
-    padding: 92px 24px 96px 24px;
-}
-
-.header__menu {
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
+    padding: 92px 24px 96px 24px;
 }
 
 .header__links-list {
@@ -125,12 +122,13 @@ body {
     width: 256px;
     height: 51px;
     background: transparent;
+    font-family: Raleway, "Times New Roman", serif;
     font-size: 22px;
     line-height: 51px;
     font-weight: 500;
     text-transform: uppercase;
     color: #fff;
-    border: 1px #fff solid;
+    border: 1px currentColor solid;
     cursor: pointer;
 }
 
@@ -248,11 +246,11 @@ body {
     height: 240px;
     background-color: #000;
     border-radius: 50%;
+    margin-left: 47px;
 }
 
 .about__column {
     margin-top: 35px;
-    margin-left: 47px;
 }
 
 .about__title {
@@ -263,6 +261,7 @@ body {
 .about__text {
     display: flex;
     flex-direction: column;
+    padding-top: 6px;
     gap: 24px;
     line-height: 24px;
 }
@@ -285,6 +284,11 @@ body {
     display: flex;
     align-items: start;
     justify-content: space-between;
+}
+
+.footer__menu {
+    padding-top: 3px;
+    padding-right: 24px;
 }
 
 .footer__menu-list {
@@ -316,6 +320,6 @@ body {
     column-gap: 48px;
 }
 
-.footer__social-list-item {
-
+.margin-left-25 {
+    margin-left: 25px;
 }
